@@ -1,0 +1,40 @@
+.Product {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+
+  img {
+    width: 200px;
+    padding-bottom: 0.7rem;
+  }
+
+  .btn-cart {
+    padding: 0.7rem;
+    outline: none;
+    border: none;
+    background-color: #c4dfec;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Product {
+    width: 50%;
+    min-height: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Product {
+    width: 33.3333%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .Product {
+    width: 25%;
+  }
+}

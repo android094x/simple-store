@@ -1,0 +1,13 @@
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .Products {
+    width: 80vw;
+  }
+}

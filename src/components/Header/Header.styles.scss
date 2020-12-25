@@ -1,0 +1,48 @@
+.Header {
+  a {
+    color: black;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #90c3db88;
+    width: 100%;
+
+    .logo {
+      font-size: 2.5rem;
+      font-family: "Dancing Script", cursive;
+    }
+
+    .menu-outer {
+      display: flex;
+
+      .menu-inner {
+        display: flex;
+
+        li {
+          padding: 0 1rem;
+        }
+      }
+
+      .cart {
+        position: relative;
+
+        .quantity {
+          position: absolute;
+          background-color: black;
+          border-radius: 50%;
+          width: 17px;
+          height: 17px;
+          text-align: center;
+          font-size: 0.7rem;
+          right: -11px;
+          top: -11px;
+          color: white;
+        }
+      }
+    }
+  }
+}
