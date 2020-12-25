@@ -4,7 +4,7 @@ This is a very simple store just withh Add to Cart and Remove from Cart function
 
 ## Live Demo
 
-Deploy in Firebase Hosting
+Deployed in Firebase Hosting
 https://simple-store-3cad2.web.app/
 
 ### Available Scripts
